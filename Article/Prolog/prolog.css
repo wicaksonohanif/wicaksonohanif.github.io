@@ -1,0 +1,59 @@
+:root {
+  --mainColor: #ffffff;
+  --secondaryColor: #a3d2ca;
+  --acsentColor1: #5eaaa8;
+  --acsentColor2: #f05945;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 1920px;
+  font-family: "ubuntu", sans-serif;
+}
+
+/* Navbar */
+.nav-link.active {
+  color: var(--acsentColor2) !important;
+  font-weight: 700;
+}
+
+.nav-dark {
+  background-color: var(--mainColor) !important;
+  z-index: 10;
+}
+/* End Navbar */
+
+/*Article Section*/
+.article {
+  padding-top: 6rem;
+}
+
+section {
+  margin-left: 7rem;
+  margin-right: 3rem;
+  text-align: justify;
+}
+
+/*Article Section End*/
+
+/*Responsive*/
+
+@media screen and (max-width: 576px) {
+  section {
+    margin-left: 3rem !important;
+    margin-right: 3rem;
+  }
+
+  footer img {
+    width: 75px;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
+/*Responsive End*/
