@@ -40,8 +40,8 @@ section {
 
 @media screen and (max-width: 576px) {
   section {
-    margin-left: 3rem !important;
-    margin-right: 3rem;
+    margin-left: 1rem !important;
+    margin-right: 1rem;
   }
 
   footer img {

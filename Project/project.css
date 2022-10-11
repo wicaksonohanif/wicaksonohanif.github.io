@@ -7,7 +7,6 @@
 
 body {
   background-color: var(--mainColor);
-  min-height: 600px;
   font-family: "ubuntu", sans-serif;
 }
 
