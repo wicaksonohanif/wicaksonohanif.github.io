@@ -35,9 +35,9 @@ hr {
   min-height: 300px;
   width: 100%;
   background-color: var(--mainColor);
-  padding-top: 90px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: -50px;
+  margin-bottom: -50px;
 }
 .arc {
   color: #000000;
@@ -47,6 +47,12 @@ hr {
   font-size: 23px;
 }
 /*Article End*/
+
+/*Footer*/
+#footer {
+  padding-top: 60px;
+}
+/*Footer End*/
 
 /*Responsive*/
 @media screen and (max-width: 1200px) {
