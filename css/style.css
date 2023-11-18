@@ -57,7 +57,22 @@ section h1 {
   font-size: 1.2rem;
 }
 
+.btn-custom2 {
+  background-color: var(--acsentColor2);
+  text-align: center;
+  color: #ffffff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
 btn-custom1:hover {
+  box-shadow: 0 0 5px rgba(240, 89, 69 0.8);
+}
+
+btn-custom2:hover {
   box-shadow: 0 0 5px rgba(240, 89, 69 0.8);
 }
 /*Hero End*/
@@ -78,6 +93,15 @@ hr {
   padding-top: 80px;
   padding-bottom: 80px;
   margin-bottom: 80px;
+}
+
+#uni {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  padding-top: 80px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
 }
 /*About End*/
 
@@ -176,6 +200,10 @@ hr1 {
   }
 
   .btn-custom1 {
+    width: 80%;
+  }
+
+  .btn-custom2 {
     width: 80%;
   }
 
